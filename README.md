@@ -9,7 +9,7 @@
 ## Prepare the Minikube
 
 ```
-minikube start --cpus 6 --memory 10240 --disk-size 40GB --vm=true --kubernetes-version=v1.20.14
+minikube start --cpus 6 --memory 10240 --disk-size 60GB --vm=true --kubernetes-version=v1.20.14
 
 minikube addons enable metrics-server
 ```
